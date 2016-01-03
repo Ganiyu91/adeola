@@ -1,0 +1,63 @@
+*********main1***********
+buffered_queue_initpush one item
+push one item
+push one item
+push one item
+push one item
+pop one item
+consumer gets msg from producer 0, value=0
+push one item
+push one item
+pop one item
+push one item
+consumer gets msg from producer 0, value=1
+pop one item
+push one item
+consumer gets msg from producer 0, value=2
+pop one item
+push one item
+consumer gets msg from producer 0, value=3
+pop one item
+consumer gets msg from producer 0, value=4
+pop one item
+consumer gets msg from producer 1, value=0
+pop one item
+consumer gets msg from producer 1, value=1
+pop one item
+consumer gets msg from producer 1, value=2
+pop one item
+consumer gets msg from producer 1, value=3
+pop one item
+consumer gets msg from producer 1, value=4
+pop one item
+stop sleep, exit.
+*********main2***********
+buffered_queue_initpop one item
+push one item
+push one item
+push one item
+push one item
+push one item
+pop one item
+consumer gets msg from producer 1, value=0
+pop one item
+consumer gets msg from producer 1, value=1
+pop one item
+consumer gets msg from producer 1, value=2
+pop one item
+consumer gets msg from producer 1, value=3
+pop one item
+consumer gets msg from producer 1, value=4
+pop one item
+stop sleep, exit.
+********main3************
+buffered_queue_initpush one item
+push one item
+push one item
+push one item
+push one item
+push one item
+stop sleep, exit.
+********main4************
+buffered_queue_initpop one item
+stop sleep, exit.
